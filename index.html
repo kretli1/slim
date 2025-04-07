@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slim App</title>
+    <title>TITAN APP</title>
     <style>
+        /* Estilos gerais */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #f8f9fa, #e9ecef);
-            color: #333;
+            /* Fundo com gradiente escuro */
+            background: linear-gradient(to right, #1b1b1b, #2c2c2c);
+            color: #fff;
         }
 
+        /* Cabeçalho */
         header {
-            background-color: #4caf50;
-            color: white;
+            background-color: #b71c1c; /* Vermelho escuro */
+            color: #fff;
             padding: 1rem 0;
             text-align: center;
         }
@@ -25,15 +28,22 @@
             font-size: 2.5rem;
         }
 
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1rem;
+        }
+
+        /* Container principal */
         .container {
             max-width: 1200px;
             margin: 2rem auto;
-            padding: 1rem;
-            background: white;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            background: #333;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
             border-radius: 10px;
         }
 
+        /* Seção da receita */
         .recipe-section {
             margin-top: 2rem;
             text-align: center;
@@ -42,22 +52,31 @@
         .recipe-section h2 {
             font-size: 2rem;
             margin-bottom: 1rem;
-            color: #4caf50;
+            color: #ff5252; /* Destaque em vermelho vivo */
         }
 
+        .recipe-section p {
+            line-height: 1.5;
+            margin: 0 auto;
+            max-width: 800px; /* Para melhor legibilidade em telas grandes */
+        }
+
+        /* Espaço onde a receita personalizada será exibida */
         .placeholder {
-            border: 2px dashed #4caf50;
+            border: 2px dashed #ff5252;
             padding: 2rem;
             border-radius: 10px;
-            color: #666;
-            background: #f9f9f9;
+            background: #444;
+            margin-top: 1.5rem;
+            color: #fff;
         }
 
+        /* Rodapé */
         footer {
             text-align: center;
             padding: 1rem;
-            background-color: #333;
-            color: white;
+            background-color: #111;
+            color: #fff;
             margin-top: 2rem;
         }
 
@@ -66,6 +85,7 @@
             font-size: 0.9rem;
         }
 
+        /* Responsividade */
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2rem;
@@ -74,51 +94,60 @@
             .recipe-section h2 {
                 font-size: 1.5rem;
             }
+
+            .container {
+                padding: 1rem;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Slim App</h1>
-        <p>Aplicación inteligente para adelgazar: dieta personalizada, actividad física y motivación.</p>
+        <h1>TITAN APP</h1>
+        <p>Aplicación inteligente para la disfunción eréctil: recibe tu receta diaria personalizada.</p>
     </header>
 
     <div class="container">
         <section class="recipe-section">
-            <h2>Atención</h2>
-          <p>Cada día, recibirás una nueva receta personalizada, totalmente adaptada a tus necesidades y objetivos. Esto significa que, a diario, tendrás una sugerencia fresca y exclusiva, pensada especialmente para ti. ¡Mantente atento(a) y disfruta de las opciones que hemos preparado con mucho cuidado para tu éxito! Esta receta fue generada para ti hoy, el <strong>07/04/2025</strong> </p>
+            <h2>Receta Diaria</h2>
+            <p>
+                Cada día, recibirás una receta personalizada para ayudarte a superar la disfunción eréctil. 
+                Esta sugerencia está pensada especialmente para ti, teniendo en cuenta tus necesidades y objetivos. 
+                ¡Mantente atento y descubre cómo mejorar tu vida íntima con nuestras recomendaciones diarias! 
+                Esta receta fue generada para ti hoy, el 
+                <strong>07/04/2025</strong>.
+            </p>
             <div class="placeholder">
-                <p><html lang="es">
+                <p><!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bebida Bariátrica de Tokio</title>
+    <title>Receta Saludable: Ensalada Energética con Sal del Mar</title>
 </head>
 <body>
-    <h1>Bebida Bariátrica de Tokio</h1>
+    <h1>Receta Saludable: Ensalada Energética con Sal del Mar</h1>
     <h2>Ingredientes</h2>
     <ul>
-        <li>200 ml de agua caliente</li>
-        <li>1 cucharadita de Matcha en polvo</li>
-        <li>1 cucharada de Jugo de limón fresco</li>
-        <li>1 cucharadita de Miel</li>
-        <li>1 pizca de Sal del Himalaya</li>
-        <li>5 hojas de Menta fresca</li>
-        <li>1 rodaja de Jengibre fresco</li>
+        <li>1 taza de espinacas frescas</li>
+        <li>1/2 aguacate</li>
+        <li>1/4 de taza de nueces</li>
+        <li>1/2 taza de fresas cortadas</li>
+        <li>Sal del mar al gusto</li>
+        <li>Jugo de medio limón</li>
     </ul>
-
+    
     <h2>Modo de Preparación</h2>
     <ol>
-        <li><strong>Calentar el agua:</strong> Lleva 200 ml de agua a ebullición y luego deja que se enfríe un poco, hasta que esté caliente pero no hirviendo (alrededor de 80°C).</li>
-        <li><strong>Mezclar el Matcha:</strong> En un tazón pequeño, agrega la cucharadita de Matcha en polvo. Vierte lentamente el agua caliente sobre el Matcha, usando un batidor de bambú (chasen) o un batidor manual, mezcla enérgicamente hasta conseguir una pasta suave y libre de grumos.</li>
-        <li><strong>Incorporar los demás ingredientes:</strong> Añade el jugo de limón fresco, la miel y una pizca de sal. Mezcla bien todos los ingredientes hasta que estén bien combinados.</li>
-        <li><strong>Agregar las hierbas:</strong> Agrega las hojas de menta fresca y la rodaja de jengibre. Deja reposar la bebida durante 5-10 minutos para que los sabores se infundan.</li>
-        <li><strong>Servir:</strong> Cuela la mezcla en un vaso o jarra, utilizando un colador si prefieres una textura más suave. Puedes decorar con una hoja de menta adicional o una rodaja de limón si lo deseas.</li>
+        <li><strong>Lavar las espinacas:</strong> Enjuaga bien las espinacas bajo el agua corriente. Asegúrate de que estén limpias para evitar cualquier residuo.</li>
+        <li><strong>Preparar el aguacate:</strong> Corta el aguacate por la mitad y retira el hueso. Con una cuchara, saca la pulpa y córtala en cubos.</li>
+        <li><strong>Mezclar los ingredientes:</strong> En un tazón grande, agrega las espinacas, los cubos de aguacate, las nueces y las fresas cortadas.</li>
+        <li><strong>Aliñar la ensalada:</strong> Exprime el jugo de medio limón sobre la ensalada. Agrega sal del mar al gusto y mezcla bien para asegurarte de que todos los ingredientes estén cubiertos con el aliño.</li>
+        <li><strong>Servir:</strong> Sirve la ensalada fresca en platos individuales. Esta ensalada es ideal como un almuerzo ligero o una cena rápida.</li>
     </ol>
 
     <h2>Recomendaciones Adicionales</h2>
-    <p>Para disfrutar de esta bebida en su máximo esplendor, se recomienda consumirla tibia, ya que así se preservan las propiedades del Matcha y facilitan la digestión. También puedes experimentar añadiendo un poco de pimienta negra para mejorar la absorción de los nutrientes del jengibre.</p>
-    <p>Esta bebida es perfecta para comenzar el día o como un refrescante por la tarde, ya que no solo es detoxificante, sino que también puede ayudar a aumentar tus niveles de energía.</p>
+    <p>Para potenciar los beneficios de esta receta, se recomienda consumirla al menos 3 veces a la semana. Las espinacas son ricas en antioxidantes y hierro, mientras que las nueces aportan grasas saludables. El aguacate contribuye al aumento de la libido y la mejora de la función cardiovascular. Mantenerse hidratado y combinar esta ensalada con actividad física regular potenciará sus efectos. Además, puedes añadir un poco de quinoa cocida para aumentar la ingesta de proteínas.</p>
 </body>
 </html></p>
             </div>
@@ -126,7 +155,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 Slim App. Todos los derechos reservados.</p>
+        <p>&copy; 2025 TITAN APP. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
